@@ -1,0 +1,31 @@
+.homeBannerBackground{
+    background:url('../../Assets/web-1012467.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 500px;
+}
+.homeContainer{
+    max-width: 700px;
+    text-align: center;
+    margin: 100px auto 100px;
+}
+
+.homeIconContainer{
+    display: flex;
+    gap: 25px;
+    justify-content: center;
+    align-items: center;
+    padding: 5px 10px;
+    border-radius: 30px;
+    background: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(3px);
+    -webkit-backdrop-filter: blur(2px);
+    margin: auto;
+    max-width: 150px;
+}
+
+@media screen and (max-width:767px) {
+    .homeContainer{
+        margin: 20px auto 20px;
+    }
+}
