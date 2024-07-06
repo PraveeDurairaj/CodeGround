@@ -1,20 +1,21 @@
 import React from 'react';
 import reportWebVitals from './reportWebVitals';
 import ReactDOM from 'react-dom/client';
-import Homebanner from './components/HomeBanner/Homebanner';
+// import Homebanner from './components/HomeBanner/Homebanner';
 // import Text from './text-size/text';
-import Technology from './components/Technology/Technology';
+// import Technology from './components/Technology/Technology';
+import TabAccordion from './components/TabAccordion/TabAccordion';
 import './index.css';
-
 
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <div>
-  <Homebanner/>
+  {/* <Homebanner/> */}
   {/* <Text/> */}
-  <Technology/>
+  {/* <Technology/> */}
+  <TabAccordion/>
   </div>
     
   
